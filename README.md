@@ -15,9 +15,9 @@ Model Training
 We need to train several regression models:
 Linear Regression, Ridge Regression, Decision Tree Regressor, Random Forest Regressor, XGBoost Regressor
 To evaluate model performance, we used:
-R² Score → how well the model fits the data
-RMSE → Root Mean Squared Error (average prediction error)
-MAE → Mean Absolute Error (average absolute difference between predicted and actual values)
+R square Score - how well the model fits the data
+RMSE - Root Mean Squared Error (average prediction error)
+MAE- Mean Absolute Error (average absolute difference between predicted and actual values)
 Based on these results, we can select the best-performing model for deployment.
 Streamlit Web App
 The web page needs to be  designed as beginner-friendly, allowing users to enter the inputs that were used during model training. Any internal calculations (like derived features) are to be handled behind the scenes, so users only need to provide the basic inputs.
